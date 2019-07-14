@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">AlcChallenge</string>
+    <string name="my_profile">My profile</string>
+    <string name="back_press">Back press</string>
+    <string name="name">Adeosun Adewale Victor</string>
+    <string name="phone_logo">phone logo</string>
+    <string name="mobile">Mobile</string>
+    <string name="number">08146875154</string>
+    <string name="email">Email</string>
+    <string name="my_email">Goldenal86@gmail.com</string>
+    <string name="android">Android</string>
+    <string name="track">Track:</string>
+    <string name="country">Country:</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="slack_username">Slack Username:</string>
+    <string name="adewale">Adewale</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profiles">MY PROFILE</string>
 </resources>

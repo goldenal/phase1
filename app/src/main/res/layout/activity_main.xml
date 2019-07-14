@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/landingpage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@drawable/grad"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to ALC 4.0"
+        android:text="@string/welcome_to_alc_4_0"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -29,7 +29,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/bgbutton"
         android:enabled="true"
-        android:text="ABOUT ALC" />
+        android:text="@string/about_alc" />
 
     <Button
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:textColor="@color/white"
         android:layout_marginTop="30dp"
         android:background="@drawable/bgbutton"
-        android:text="MY PROFILE" />
+        android:text="@string/my_profiles" />
 
 
 </LinearLayout>

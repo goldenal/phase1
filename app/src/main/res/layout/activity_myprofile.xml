@@ -7,7 +7,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="top|center"
         android:orientation="vertical"
         tools:context=".Myprofile">
@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                android:text="Adeosun Adewale Victor"
+                android:text="@string/name"
                 android:textColor="@color/blue"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -42,7 +42,6 @@
             android:layout_width="match_parent"
             android:layout_marginTop="40dp"
             android:layout_height="wrap_content"
-            android:clickable="true"
             android:elevation="8dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -64,25 +63,27 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@drawable/ic_phone_black_24dp" />
+                        android:src="@drawable/ic_phone_black_24dp"
+                        android:contentDescription="@string/phone_logo" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingLeft="20dp">
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mobile"
+                            android:text="@string/mobile"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="08146875154"
+                            android:text="@string/number"
                             android:textColor="@color/white"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -100,25 +101,27 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@drawable/ic_email_black_24dp" />
+                        android:src="@drawable/ic_email_black_24dp"
+                        android:contentDescription="@string/email" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingLeft="20dp">
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Email"
+                            android:text="@string/email"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Goldenal86@gmail.com"
+                            android:text="@string/my_email"
                             android:textColor="@color/white"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -137,7 +140,6 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
-            android:clickable="true"
             android:elevation="8dp"
             app:cardCornerRadius="5dp">
 
@@ -157,15 +159,16 @@
                     <TextView
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="Track:"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="0dp"
+                        android:text="@string/track"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Android"
+                        android:text="@string/android"
                         android:textColor="@color/white"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -180,15 +183,16 @@
                     <TextView
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="Country:"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="0dp"
+                        android:text="@string/country"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Nigeria"
+                        android:text="@string/nigeria"
                         android:textColor="@color/white"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -203,15 +207,15 @@
                     <TextView
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="Slack Username:"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/slack_username"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Adewale"
+                        android:text="@string/adewale"
                         android:textColor="@color/white"
                         android:textSize="14sp"
                         android:textStyle="bold" />

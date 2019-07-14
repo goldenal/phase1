@@ -8,9 +8,10 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 
+@SuppressWarnings("ALL")
 public class Myprofile extends AppCompatActivity {
-    ImageButton imageButton;
-    ImageView imageView;
+    private ImageButton imageButton;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +19,16 @@ public class Myprofile extends AppCompatActivity {
         setContentView(R.layout.activity_myprofile);
         imageButton = findViewById(R.id.backpress);
         imageView = findViewById(R.id.selfie);
+
+        //onclick listener for the back button on the toolbar
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
+
+        //loading images with glide
         Glide.with(this).load(R.drawable.selfie).dontAnimate().into(imageView);
     }
 }
